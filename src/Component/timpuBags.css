@@ -1,0 +1,144 @@
+
+.timpubags {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.bags {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(100.24deg, #E6EEFF 13.91%, #FFFFFF 116.73%);
+    border-radius: 10px;
+}
+
+.bagImage {
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 10px;
+
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.para {
+
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    text-align: left;
+    color: #333333;
+
+}
+
+.productcount {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #949494;
+
+}
+
+.bestbag {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.messagetime {
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    color: #333333;
+
+}
+
+.files {
+    margin-top: 20px;
+}
+
+.filter {
+    display: flex;
+    width: 350px;
+    align-items: center;
+
+}
+
+.selFilter {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #949494;
+
+}
+
+.select {
+    display: flex;
+    margin-left: auto;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #666666;
+    align-items: center;
+
+}
+
+.anchorlinks{
+    width: 330px;
+    margin-top: 20px;
+}
+
+  .link {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+    margin: 5px 10px;
+    text-decoration: none;
+    color: #737373;
+    background: #F4F4F4;
+
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    border: 1px solid transparent; /* Added border for consistency */
+  }
+  
+  .link:first-child {
+    color: #4C82EF;
+    border-color: #4C82EF; /* Change border color */
+  }

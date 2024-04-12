@@ -1,0 +1,38 @@
+.popularTags {
+    margin-top: 20px;
+}
+
+.populartext {
+    display: flex;
+    flex-direction: column;
+}
+
+.tags {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    color: #949494;
+
+}
+.taglinks{
+    margin-top: 20px;
+}
+.tag-link {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4C82EF;
+    background: #E6EEFF;
+    border: 2px solid #4C82EF;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+
+}
+

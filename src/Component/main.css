@@ -1,0 +1,53 @@
+.main {
+    background: hsl(0, 0%, 100%);
+    border: 7px solid #FFFFFF;
+    /* width: 360px;
+    height: 800px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.head {
+    background: #E6EEFF;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+}
+
+.robo {
+    padding: 10px;
+
+}
+
+.timpu {
+    margin-top: 10px;
+}
+
+.timpu h2 {
+    color: #4C82EF;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+}
+
+.timpu p {
+    color: #4C82EF;
+    font-size: 15px;
+}
+
+.online {
+    padding: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 15px;
+    color: #4C82EF;
+    font-weight: 500;
+}
